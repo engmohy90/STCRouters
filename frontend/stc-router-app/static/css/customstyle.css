@@ -1,0 +1,79 @@
+/*app.vue*/
+.search-menu {
+  float: right;
+  padding-right: 5%;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.el-autocomplete {
+  width: 100%;
+}
+
+@media (max-width: 428px) {
+  .search-menu {
+    padding-right: 2% !important;
+  }
+}
+
+@media (max-width: 373px) {
+  .search-menu {
+    padding-right: 1% !important;
+    width: 43% !important;
+  }
+}
+
+/*listRouter.vue*/
+.router-padding {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/*routerDetails.vue*/
+.head_center {
+  text-align: center;
+}
+
+.router-border {
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.badge {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  font-size: 19px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 16px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #01a93f;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #f80502;
+}
+
+.badge-up, .badge-down {
+  border-radius: 50%;
+  height: 53px;
+  width: 53px;
+  font-size: 19px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  margin: 6px;
+  line-height: 2.5;
+}
+svg{
+  overflow: visible !important;
+  margin-top: 43px;
+
+}
